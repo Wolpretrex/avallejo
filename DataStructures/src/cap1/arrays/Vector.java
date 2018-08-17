@@ -45,6 +45,10 @@ public class Vector {
 		return this.elements;
 	}
 	
+	public int[] ListElement(int element, int position) {
+		 this.elements[position] = element;
+		return this.elements;
+	}
 	
 	
 	
